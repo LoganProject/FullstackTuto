@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "author": "Logan Faraud <logan.faraud@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "echo 'test command)'"
+  }
 }
