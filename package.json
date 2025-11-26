@@ -5,6 +5,6 @@
   "author": "Logan Faraud <logan.faraud@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "echo 'test command)'"
+    "start": "nodemon server"
   }
 }
