@@ -4,7 +4,11 @@
   "main": "server.js",
   "author": "Logan Faraud <logan.faraud@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "nodemon server"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
