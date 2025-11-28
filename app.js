@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from "mongoose";
 import { router as stuffRoutes } from "./routes/stuff.js";
+import { router as userRoutes } from "./routes/user.js";
 
 export const app = express();
 
@@ -13,6 +14,7 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 app.use('/api/stuff', stuffRoutes);
+app.use('/api/auth', userRoutes);
 
 mongoose.connect('mongodb+srv://DevUser:FullstackTutoDevPassword@fullstacktuto.otilmtu.mongodb.net/?appName=FullstackTuto')
     .then(() => console.log('Connexion à MongoDB réussie !'))
