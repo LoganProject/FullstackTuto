@@ -1,6 +1,6 @@
 import http from 'http';
-import { quizzApp as app} from "./quizzApp.js";
-// import { app } from "./app.js";
+// import { quizzApp as app} from "./quizzApp.js";
+import { app } from "./app.js";
 
 // app.set("port", process.env.PORT || 3000);
 // const server = http.createServer(app)
